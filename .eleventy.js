@@ -25,14 +25,14 @@ export default function(eleventyConfig) {
  
 eleventyConfig.addPassthroughCopy("./src/_css");
 eleventyConfig.addPassthroughCopy("./src/_assets");
+eleventyConfig.addPassthroughCopy("./src/_fonts");
 
-eleventyConfig.addShortcode("video", (yt_id) => {
-    return `<div class="video-wrapper">
-        <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+eleventyConfig.addShortcode("video", (yt_id, width=640, height=480, align="left") => {
+    return `<p class="lti-embed" style="text-align: ${align}; margin-top:40px; margin-bottom:0px"><strong>
+    <iframe class="lti-embed" style="width:${width}px; height:${height}px;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen frameborder="0" height="auto"
             src="https://www.youtube-nocookie.com/embed/${yt_id}">
-        </iframe>
-    </div>`
+        </iframe></strong></p>`
 });
 
 eleventyConfig.addPairedShortcode("section", (content) => {
@@ -43,6 +43,10 @@ eleventyConfig.addPairedShortcode("section", (content) => {
 
 eleventyConfig.addPairedShortcode("text", (text) => {
     return `<div class="deltionv2-addintrotext">${text}</div>`;
+});
+
+eleventyConfig.addPairedShortcode("code", (text) => {
+    return `<div style="background-color: #fff; padding: 0px; ">${text}</div>`;
 });
 
 eleventyConfig.addShortcode("afbeelding", (afbeelding, width = 100, height = 100) => {
