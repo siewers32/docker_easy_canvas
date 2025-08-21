@@ -29,3 +29,8 @@ npm run start
 * Met `docker compose exec eleventy bash` kun je de server stoppen/starten en node scripts uitvoeren.
 
 ## Eleventy
+* Shorcodes toegevoegd aan .eleventy.js
+* `{% section %}{% endsection %}`: Start nieuwe section op pagina
+    * Een section is een flexbox geschikt voor 2 containers (bijv. links een tekst en rechts een afbeelding)
+* `{% tekst %}{% endtext %}`: Tekstcontainer binnen een section
+* `{% afbeelding "naam_afbeelding.jpg", "100", "100" %}`: Afbeelding met formaat width: 100% en height: 100% (formaat is optioneel)
