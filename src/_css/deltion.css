@@ -1,0 +1,1327 @@
+@import url(https://unpkg.com/css.gg/icons/icons.css);
+@import url(https://cdn.jsdelivr.net/npm/css.gg/icons/icons.css);
+
+.deltion-template-container * {
+    font-family: BuenosAires, sans-serif
+}
+
+.deltion-template-container h2,
+.deltion-template-container h3 {
+    font-family: BuenosAires, sans-serif;
+    font-size: 24pt;
+    font-weight: 600
+}
+
+h1 {
+    color: #17171a !important;
+    font-family: BuenosAires, sans-serif;
+    font-size: 24pt !important;
+    font-weight: 200 !important
+}
+
+@font-face {
+    font-family: BuenosAires;
+    font-style: normal;
+    font-weight: 100;
+    src: url(https://templates.drieam.com/templates/production/deltionv2/fonts/BuenosAires-Thin.23cc4f34.woff2) format("woff2"), url(https://templates.drieam.com/templates/production/deltionv2/fonts/BuenosAires-Thin.7ef423b6.woff) format("woff"), url(https://templates.drieam.com/templates/production/deltionv2/fonts/BuenosAires-Thin.d28e8b25.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: BuenosAires;
+    font-style: normal;
+    font-weight: 300;
+    src: url(https://templates.drieam.com/templates/production/deltionv2/fonts/BuenosAires-Light.bfbfb4cf.woff2) format("woff2"), url(https://templates.drieam.com/templates/production/deltionv2/fonts/BuenosAires-Light.49b94ccd.woff) format("woff"), url(https://templates.drieam.com/templates/production/deltionv2/fonts/BuenosAires-Light.b8238720.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: BuenosAires;
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://templates.drieam.com/templates/production/deltionv2/fonts/BuenosAires-Regular.bebd88c4.woff2) format("woff2"), url(https://templates.drieam.com/templates/production/deltionv2/fonts/BuenosAires-Regular.3ff93054.woff) format("woff"), url(https://templates.drieam.com/templates/production/deltionv2/fonts/BuenosAires-Regular.78534721.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: BuenosAires;
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://templates.drieam.com/templates/production/deltionv2/fonts/BuenosAires-Bold.450f872d.woff2) format("woff2"), url(https://templates.drieam.com/templates/production/deltionv2/fonts/BuenosAires-Bold.0672a34c.woff) format("woff"), url(https://templates.drieam.com/templates/production/deltionv2/fonts/BuenosAires-Bold.8b64c088.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: BuenosAires;
+    font-style: normal;
+    font-weight: 900;
+    src: url(https://templates.drieam.com/templates/production/deltionv2/fonts/BuenosAires-Black.44aa4857.woff2) format("woff2"), url(https://templates.drieam.com/templates/production/deltionv2/fonts/BuenosAires-Black.ed9e43eb.woff) format("woff"), url(https://templates.drieam.com/templates/production/deltionv2/fonts/BuenosAires-Black.63f7b791.ttf) format("truetype")
+}
+
+.ic-app-header__main-navigation {
+    background: #f5f4f7 !important
+}
+
+.icon-hamburger {
+    color: #343368 !important
+}
+
+.ic-app-header__secondary-navigation {
+    background: #f5f4f7 !important
+}
+
+.ic-app-header__menu-list-item.ic-app-header__menu-list-item--active .ic-icon-svg {
+    fill: #f58220 !important
+}
+
+.ic-app-header__menu-list-item.ic-app-header__menu-list-item--active .ic-app-header__menu-list-link {
+    background: #343368
+}
+
+body.primary-nav-expanded .ic-app-header__menu-list-item.ic-app-header__menu-list-item--active .menu-item__text {
+    color: #fff
+}
+
+.list-view>nav>ul>li>a,
+.list-view>ul>li>a {
+    color: #343368 !important
+}
+
+#breadcrumbs,
+.ellipsible {
+    color: #f58220
+}
+
+#wiki_page_show .show-content .page-title {
+    display: none
+}
+
+.ic-app-header__menu-list-item .ic-icon-svg {
+    fill: #343368 !important
+}
+
+body.primary-nav-expanded .menu-item__text {
+    color: #343368;
+    font-family: BuenosAires, sans-serif;
+    font-size: 10pt
+}
+
+.ic-app-header__logomark,
+.ic-app-header__logomark-container {
+    background-color: #f5f4f7 !important
+}
+
+.ic-app-header__logomark {
+    background-image: url(https://templates.drieam.com/templates/production/deltionv2/images/icon.6793cf4b.svg) !important
+}
+
+.list-view>nav>ul>li>a,
+.list-view>ul>li>a {
+    color: #343368
+}
+
+.ellipsible {
+    color: #17171a
+}
+
+.events_list .event-list-view-calendar {
+    color: #f58220
+}
+
+.list-view a {
+    color: #17171a
+}
+
+.list-view a.active {
+    border-left: 2px solid #f58220;
+    color: #343368
+}
+
+.ic-avatar {
+    border: 2px solid #343368
+}
+
+.ic-app-header__menu-list-item--active .ic-app-header__menu-list-link .menu-item__text {
+    font-weight: 700
+}
+
+.icon-line {
+    color: #343368
+}
+
+nav #section-tabs .section a {
+    color: #343368;
+    font-family: BuenosAires, sans-serif
+}
+
+.item-group-condensed .ig-header {
+    background: #f5f4f7;
+    border-style: none;
+    color: #343368 !important;
+    font-family: BuenosAires, sans-serif;
+    font-weight: 600;
+    height: 50px;
+    padding: 1rem 2rem
+}
+
+@media (max-width:767px) {
+    .item-group-condensed .ig-header {
+        height: 35px
+    }
+}
+
+.item-group-condensed .ig-header .accessible-toggler {
+    color: #343368 !important
+}
+
+.item-group-condensed .ig-header .ig-header-title {
+    font-size: 16pt
+}
+
+.item-group-condensed .ig-header .name {
+    color: #343368;
+    text-shadow: none
+}
+
+.publish-icon {
+    color: #343368
+}
+
+.ig-row {
+    border: 0;
+    padding: 1.5rem 2rem !important
+}
+
+.pill {
+    color: #343368;
+    font-family: BuenosAires, sans-serif;
+    font-weight: 500
+}
+
+.assignment_group .ig-header-title {
+    color: #343368 !important
+}
+
+.ig-title {
+    font-family: BuenosAires, sans-serif;
+    font-size: 12pt;
+    font-weight: 400
+}
+
+button .icon-plus {
+    color: #17171a
+}
+
+.icon-plus {
+    color: #343368
+}
+
+.add_rubric_link {
+    color: #17171a
+}
+
+.btn-primary {
+    background-color: #343368;
+    border: #343368;
+    color: #fff
+}
+
+.btn-primary:hover {
+    background-color: #f58220
+}
+
+.btn-primary .icon-plus {
+    color: #fff
+}
+
+.deltionv2-template-container .deltionv2-buttoncollection {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(4, 1fr);
+    margin-bottom: 1rem;
+    position: relative;
+    width: 100%
+}
+
+.deltionv2-template-container .deltionv2-buttoncollection a {
+    display: block;
+    text-decoration: none !important;
+    width: 100%
+}
+
+@media (max-width:1449px) {
+    .deltionv2-template-container .deltionv2-buttoncollection {
+        grid-template-columns: repeat(3, 1fr)
+    }
+}
+
+@media (max-width:1199px) {
+    .deltionv2-template-container .deltionv2-buttoncollection {
+        grid-template-columns: repeat(2, 1fr)
+    }
+}
+
+@media (max-width:767px) {
+    .deltionv2-template-container .deltionv2-buttoncollection {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0
+    }
+}
+
+.deltionv2-template-container .deltionv2-buttoncollection .deltionv2-navigationbutton {
+    background: #f5f4f7;
+    display: flex;
+    flex-direction: column;
+    max-height: 200px;
+    position: relative
+}
+
+.deltionv2-template-container .deltionv2-buttoncollection .deltionv2-navigationbutton a {
+    align-items: center;
+    border-top: solid;
+    border-top-width: 20px;
+    color: #343368;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: BuenosAires, sans-serif;
+    font-size: 13pt;
+    font-weight: 700;
+    padding: 5rem 1rem 1.5rem;
+    position: relative;
+    text-decoration: none !important;
+    width: calc(100% - 2rem);
+    z-index: 1
+}
+
+.deltionv2-template-container .deltionv2-buttoncollection .deltionv2-navigationbutton a img {
+    height: 22px;
+    margin-bottom: 5px;
+    margin-right: 8px
+}
+
+.deltionv2-template-container .deltionv2-buttoncollection .deltionv2-navigationbutton a .gg-arrow-right-o {
+    color: #f58220;
+    margin-right: 8px
+}
+
+.deltionv2-template-container .deltionv2-buttoncollection .deltionv2-navigationbutton a:hover {
+    background-color: #343368;
+    border-top-color: #343368;
+    color: #fff;
+    transition: all .2s ease-in-out
+}
+
+@media (max-width:1449px) {
+    .deltionv2-template-container .deltionv2-buttoncollection .deltionv2-navigationbutton a {
+        font-size: 12pt
+    }
+}
+
+@media (max-width:991px) {
+    .deltionv2-template-container .deltionv2-buttoncollection .deltionv2-navigationbutton a {
+        font-size: 14pt
+    }
+}
+
+@media (max-width:767px) {
+    .deltionv2-template-container .deltionv2-buttoncollection .deltionv2-navigationbutton a {
+        padding: 2rem 1rem 1.5rem
+    }
+}
+
+@media (max-width:1199px) {
+    .deltionv2-template-container .deltionv2-buttoncollection .deltionv2-navigationbutton {
+        max-height: 190px
+    }
+}
+
+@media (max-width:767px) {
+    .deltionv2-template-container .deltionv2-buttoncollection .deltionv2-navigationbutton {
+        max-height: 110px
+    }
+}
+
+.deltionv2-template-container .deltionv2-buttoncollection .deltionv2-navigationbutton p {
+    color: #17171a;
+    font-size: 12pt;
+    font-weight: 500
+}
+
+.deltionv2-template-container .deltionv2-buttoncollection .deltionv2-navigationbutton .deltion-button-arrow {
+    align-items: center;
+    bottom: 25px;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    left: 23px;
+    pointer-events: none;
+    position: absolute;
+    text-align: center;
+    z-index: 1
+}
+
+.deltionv2-template-container .deltionv2-buttoncollection .deltionv2-navigationbutton .deltion-button-arrow img {
+    height: 20px;
+    margin-top: 10px
+}
+
+@media (max-width:767px) {
+    .deltionv2-template-container .deltionv2-buttoncollection .deltionv2-navigationbutton .deltion-button-arrow {
+        display: none
+    }
+}
+
+.deltionv2-template-container .deltionv2-banner {
+    background: #343368;
+    margin-bottom: 1rem
+}
+
+.deltionv2-template-container .deltionv2-banner .deltionv2-content {
+    margin: 0 10px;
+    padding: 20px
+}
+
+.deltionv2-template-container .deltionv2-banner .deltionv2-content .deltionv2-content-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px
+}
+
+@media (max-width:767px) {
+    .deltionv2-template-container .deltionv2-banner .deltionv2-content .deltionv2-content-header {
+        flex-direction: row
+    }
+}
+
+.deltionv2-template-container .deltionv2-banner .deltionv2-content .deltionv2-content-header h2 {
+    color: #fff
+}
+
+@media (max-width:767px) {
+    .deltionv2-template-container .deltionv2-banner .deltionv2-content .deltionv2-content-header h2 {
+        padding-right: 10px
+    }
+}
+
+.deltionv2-template-container .deltionv2-banner .deltionv2-content .deltionv2-content-header a {
+    align-items: center;
+    background-color: #f58220;
+    border-radius: 60px;
+    color: #fff;
+    display: flex;
+    font-family: BuenosAires, sans-serif;
+    font-size: 14pt;
+    font-weight: 600;
+    height: 50px;
+    justify-content: center !important;
+    min-width: 170px;
+    text-decoration: none !important;
+    transition: all .2s ease-in-out;
+    width: 170px
+}
+
+@media (max-width:991px) {
+    .deltionv2-template-container .deltionv2-banner .deltionv2-content .deltionv2-content-header a {
+        margin: 20px 0 0
+    }
+}
+
+@media (max-width:767px) {
+    .deltionv2-template-container .deltionv2-banner .deltionv2-content .deltionv2-content-header a {
+        font-size: 12pt;
+        height: 45px;
+        min-width: 130px !important;
+        width: 160px
+    }
+}
+
+.deltionv2-template-container .deltionv2-banner .deltionv2-content .deltionv2-content-header a:hover {
+    background-color: #fff;
+    color: #f58220
+}
+
+.deltionv2-template-container .deltionv2-information-section {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr;
+    margin: 1rem 0
+}
+
+@media (max-width:991px) {
+    .deltionv2-template-container .deltionv2-information-section {
+        grid-template-columns: 1fr
+    }
+}
+
+.deltionv2-template-container .deltionv2-information-section .deltionv2-introtext {
+    background-color: #f5f4f7;
+    padding: 3rem 0;
+    width: 100%
+}
+
+.deltionv2-template-container .deltionv2-information-section .deltionv2-introtext h3 {
+    color: #343368;
+    font-family: BuenosAires, sans-serif;
+    font-weight: 600;
+    padding: 0 2.5rem
+}
+
+.deltionv2-template-container .deltionv2-information-section .deltionv2-introtext a,
+.deltionv2-template-container .deltionv2-information-section .deltionv2-introtext img,
+.deltionv2-template-container .deltionv2-information-section .deltionv2-introtext li,
+.deltionv2-template-container .deltionv2-information-section .deltionv2-introtext ol,
+.deltionv2-template-container .deltionv2-information-section .deltionv2-introtext p,
+.deltionv2-template-container .deltionv2-information-section .deltionv2-introtext span,
+.deltionv2-template-container .deltionv2-information-section .deltionv2-introtext ul {
+    color: #343368;
+    font-family: BuenosAires, sans-serif;
+    padding: 0 2.5rem
+}
+
+.deltionv2-template-container .deltionv2-information-section .deltionv2-introtext a a,
+.deltionv2-template-container .deltionv2-information-section .deltionv2-introtext a img,
+.deltionv2-template-container .deltionv2-information-section .deltionv2-introtext a li,
+.deltionv2-template-container .deltionv2-information-section .deltionv2-introtext a ol,
+.deltionv2-template-container .deltionv2-information-section .deltionv2-introtext a p,
+.deltionv2-template-container .deltionv2-information-section .deltionv2-introtext a span,
+.deltionv2-template-container .deltionv2-information-section .deltionv2-introtext a ul,
+.deltionv2-template-container .deltionv2-information-section .deltionv2-introtext img a,
+.deltionv2-template-container .deltionv2-information-section .deltionv2-introtext img img,
+.deltionv2-template-container .deltionv2-information-section .deltionv2-introtext img li,
+.deltionv2-template-container .deltionv2-information-section .deltionv2-introtext img ol,
+.deltionv2-template-container .deltionv2-information-section .deltionv2-introtext img p,
+.deltionv2-template-container .deltionv2-information-section .deltionv2-introtext img span,
+.deltionv2-template-container .deltionv2-information-section .deltionv2-introtext img ul,
+.deltionv2-template-container .deltionv2-information-section .deltionv2-introtext li,
+.deltionv2-template-container .deltionv2-information-section .deltionv2-introtext li a,
+.deltionv2-template-container .deltionv2-information-section .deltionv2-introtext li img,
+.deltionv2-template-container .deltionv2-information-section .deltionv2-introtext li li,
+.deltionv2-template-container .deltionv2-information-section .deltionv2-introtext li ol,
+.deltionv2-template-container .deltionv2-information-section .deltionv2-introtext li p,
+.deltionv2-template-container .deltionv2-information-section .deltionv2-introtext li span,
+.deltionv2-template-container .deltionv2-information-section .deltionv2-introtext li ul,
+.deltionv2-template-container .deltionv2-information-section .deltionv2-introtext ol a,
+.deltionv2-template-container .deltionv2-information-section .deltionv2-introtext ol img,
+.deltionv2-template-container .deltionv2-information-section .deltionv2-introtext ol li,
+.deltionv2-template-container .deltionv2-information-section .deltionv2-introtext ol ol,
+.deltionv2-template-container .deltionv2-information-section .deltionv2-introtext ol p,
+.deltionv2-template-container .deltionv2-information-section .deltionv2-introtext ol span,
+.deltionv2-template-container .deltionv2-information-section .deltionv2-introtext ol ul,
+.deltionv2-template-container .deltionv2-information-section .deltionv2-introtext p a,
+.deltionv2-template-container .deltionv2-information-section .deltionv2-introtext p img,
+.deltionv2-template-container .deltionv2-information-section .deltionv2-introtext p li,
+.deltionv2-template-container .deltionv2-information-section .deltionv2-introtext p ol,
+.deltionv2-template-container .deltionv2-information-section .deltionv2-introtext p p,
+.deltionv2-template-container .deltionv2-information-section .deltionv2-introtext p span,
+.deltionv2-template-container .deltionv2-information-section .deltionv2-introtext p ul,
+.deltionv2-template-container .deltionv2-information-section .deltionv2-introtext span a,
+.deltionv2-template-container .deltionv2-information-section .deltionv2-introtext span img,
+.deltionv2-template-container .deltionv2-information-section .deltionv2-introtext span li,
+.deltionv2-template-container .deltionv2-information-section .deltionv2-introtext span ol,
+.deltionv2-template-container .deltionv2-information-section .deltionv2-introtext span p,
+.deltionv2-template-container .deltionv2-information-section .deltionv2-introtext span span,
+.deltionv2-template-container .deltionv2-information-section .deltionv2-introtext span ul,
+.deltionv2-template-container .deltionv2-information-section .deltionv2-introtext ul a,
+.deltionv2-template-container .deltionv2-information-section .deltionv2-introtext ul img,
+.deltionv2-template-container .deltionv2-information-section .deltionv2-introtext ul li,
+.deltionv2-template-container .deltionv2-information-section .deltionv2-introtext ul ol,
+.deltionv2-template-container .deltionv2-information-section .deltionv2-introtext ul p,
+.deltionv2-template-container .deltionv2-information-section .deltionv2-introtext ul span,
+.deltionv2-template-container .deltionv2-information-section .deltionv2-introtext ul ul {
+    padding: 0
+}
+
+.deltionv2-template-container .deltionv2-information-section .deltionv2-introtext .deltionv2-introbutton {
+    align-items: center;
+    display: flex;
+    margin-top: 2rem;
+    padding: 0 2.5rem
+}
+
+@media (max-width:1449px) {
+    .deltionv2-template-container .deltionv2-information-section .deltionv2-introtext .deltionv2-introbutton {
+        justify-content: center;
+        padding: 0 0 2.5rem
+    }
+}
+
+@media (max-width:991px) {
+    .deltionv2-template-container .deltionv2-information-section .deltionv2-introtext .deltionv2-introbutton {
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: normal;
+        padding: 0 2.5rem 2.5rem
+    }
+}
+
+.deltionv2-template-container .deltionv2-information-section .deltionv2-introtext .deltionv2-introbutton a {
+    align-items: center;
+    background-color: #f58220;
+    border-radius: 60px;
+    color: #fff;
+    display: flex;
+    font-family: BuenosAires, sans-serif;
+    font-size: 12pt;
+    font-weight: 600;
+    height: 40px;
+    justify-content: center !important;
+    margin: 0 30px 0 0;
+    text-decoration: none !important;
+    transition: all .2s ease-in-out
+}
+
+@media (max-width:1449px) {
+    .deltionv2-template-container .deltionv2-information-section .deltionv2-introtext .deltionv2-introbutton a {
+        margin: 0
+    }
+}
+
+@media (max-width:991px) {
+    .deltionv2-template-container .deltionv2-information-section .deltionv2-introtext .deltionv2-introbutton a {
+        margin: 0 30px 0 0
+    }
+}
+
+.deltionv2-template-container .deltionv2-information-section .deltionv2-introtext .deltionv2-introbutton a:hover {
+    background-color: #fff;
+    color: #f58220
+}
+
+.deltionv2-template-container .deltionv2-information-section .deltionv2-contentarea {
+    width: 100%
+}
+
+.deltionv2-template-container .deltionv2-information-section .deltionv2-contentarea img {
+    height: 100%;
+    left: 0;
+    min-width: 100%;
+    object-fit: cover;
+    position: relative;
+    top: 0;
+    width: 100%
+}
+
+.deltionv2-template-container .deltionv2-footer {
+    align-items: center;
+    border: 1px solid #343368;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 14px 0;
+    width: 100%
+}
+
+.deltionv2-template-container .deltionv2-footer .deltionv2-footerbuttons {
+    align-items: center;
+    display: flex;
+    gap: 2rem
+}
+
+@media (max-width:991px) {
+    .deltionv2-template-container .deltionv2-footer .deltionv2-footerbuttons {
+        gap: 1rem
+    }
+}
+
+@media (max-width:767px) {
+    .deltionv2-template-container .deltionv2-footer .deltionv2-footerbuttons {
+        align-items: normal;
+        flex-direction: column
+    }
+}
+
+.deltionv2-template-container .deltionv2-footer .deltionv2-footerbuttons a {
+    color: #343368;
+    font-family: BuenosAires, sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    text-decoration: none !important
+}
+
+.deltionv2-template-container .deltionv2-footer .deltionv2-footerbuttons a:first-child {
+    margin-left: 14px
+}
+
+@media (max-width:991px) {
+    .deltionv2-template-container .deltionv2-footer .deltionv2-footerbuttons a {
+        font-size: "BuenosAires", sans-serif
+    }
+}
+
+@media (max-width:767px) {
+    .deltionv2-template-container .deltionv2-footer .deltionv2-footerbuttons a {
+        margin-left: 14px
+    }
+}
+
+.deltionv2-template-container .deltionv2-footer .deltionv2-footerbuttons a .external_link_icon {
+    display: none !important
+}
+
+#tinymce .deltionv2-footer {
+    display: none
+}
+
+.deltionv2-template-container .deltionv2-addbanner {
+    background: #343368
+}
+
+.deltionv2-template-container .deltionv2-addbanner .deltionv2-addcontent {
+    margin: 0 10px;
+    padding: 20px
+}
+
+.deltionv2-template-container .deltionv2-addbanner .deltionv2-addcontent .deltionv2-addcontent-header {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px 5px
+}
+
+@media (max-width:767px) {
+    .deltionv2-template-container .deltionv2-addbanner .deltionv2-addcontent .deltionv2-addcontent-header {
+        flex-direction: column
+    }
+}
+
+.deltionv2-template-container .deltionv2-addbanner .deltionv2-addcontent .deltionv2-addcontent-header h2 {
+    color: #fff;
+    font-family: BuenosAires, sans-serif;
+    font-weight: 700;
+    margin: 0
+}
+
+.deltionv2-template-container .deltionv2-addbanner .deltionv2-addcontent .deltionv2-addcontent-header a {
+    align-items: center;
+    border-radius: 60px;
+    color: #fff;
+    display: flex;
+    font-family: BuenosAires, sans-serif;
+    font-size: 12pt;
+    font-weight: 600;
+    height: 50px;
+    justify-content: center !important;
+    padding: 0 10px;
+    text-decoration: none !important;
+    transition: all .2s ease-in-out
+}
+
+.deltionv2-template-container .deltionv2-addbanner .deltionv2-addcontent .deltionv2-addcontent-header a:hover {
+    color: #f58220
+}
+
+.deltionv2-template-container .deltionv2-textarea {
+    background: #f5f4f7;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+    width: 100%
+}
+
+.deltionv2-template-container .deltionv2-textarea .deltionv2-text {
+    background: #fff;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 2.5rem;
+    width: 65%
+}
+
+.deltionv2-template-container .deltionv2-textarea .deltionv2-text table {
+    color: #343368;
+    font-family: BuenosAires, sans-serif;
+    margin: 0 2.5rem;
+    width: unset !important
+}
+
+.deltionv2-template-container .deltionv2-textarea .deltionv2-text table p {
+    margin: unset !important;
+    padding: 0 .5rem
+}
+
+.deltionv2-template-container .deltionv2-textarea .deltionv2-text table ul {
+    margin: unset !important;
+    padding: 0 1rem
+}
+
+.deltionv2-template-container .deltionv2-textarea .deltionv2-text table img {
+    margin: unset !important;
+    width: max-content
+}
+
+.deltionv2-template-container .deltionv2-textarea .deltionv2-text table ol {
+    margin: unset !important;
+    padding: 0 1rem
+}
+
+.deltionv2-template-container .deltionv2-textarea .deltionv2-text table td {
+    padding: .5rem
+}
+
+.deltionv2-template-container .deltionv2-textarea .deltionv2-text table td p {
+    padding: .5rem 0
+}
+
+@media (max-width:767px) {
+    .deltionv2-template-container .deltionv2-textarea .deltionv2-text {
+        width: calc(100% - 60px)
+    }
+}
+
+.deltionv2-template-container .deltionv2-textarea .deltionv2-text p {
+    color: #343368;
+    font-family: BuenosAires, sans-serif
+}
+
+.deltionv2-template-container .deltionv2-textarea .deltionv2-text a,
+.deltionv2-template-container .deltionv2-textarea .deltionv2-text span {
+    color: #343368;
+    font-family: BuenosAires, sans-serif;
+    margin: 0;
+    padding: 0
+}
+
+.deltionv2-template-container .deltionv2-textarea .deltionv2-text li,
+.deltionv2-template-container .deltionv2-textarea .deltionv2-text ol,
+.deltionv2-template-container .deltionv2-textarea .deltionv2-text ul {
+    color: #343368;
+    font-family: BuenosAires, sans-serif;
+    margin: 12px;
+    padding: 0 2.5rem
+}
+
+.deltionv2-template-container .deltionv2-textarea .deltionv2-text li img,
+.deltionv2-template-container .deltionv2-textarea .deltionv2-text li li,
+.deltionv2-template-container .deltionv2-textarea .deltionv2-text li ol,
+.deltionv2-template-container .deltionv2-textarea .deltionv2-text li ul,
+.deltionv2-template-container .deltionv2-textarea .deltionv2-text ol img,
+.deltionv2-template-container .deltionv2-textarea .deltionv2-text ol li,
+.deltionv2-template-container .deltionv2-textarea .deltionv2-text ol ol,
+.deltionv2-template-container .deltionv2-textarea .deltionv2-text ol ul,
+.deltionv2-template-container .deltionv2-textarea .deltionv2-text ul img,
+.deltionv2-template-container .deltionv2-textarea .deltionv2-text ul li,
+.deltionv2-template-container .deltionv2-textarea .deltionv2-text ul ol,
+.deltionv2-template-container .deltionv2-textarea .deltionv2-text ul ul {
+    margin: 2px;
+    padding: 0
+}
+
+.deltionv2-template-container .deltionv2-textarea .deltionv2-text li {
+    padding: 0
+}
+
+.deltionv2-template-container .deltionv2-textarea .deltionv2-text .deltionv2-introbutton {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    margin: 1rem 0 2rem;
+    padding: 0 2.5rem
+}
+
+@media (max-width:767px) {
+    .deltionv2-template-container .deltionv2-textarea .deltionv2-text .deltionv2-introbutton {
+        flex-direction: column;
+        justify-content: center
+    }
+}
+
+.deltionv2-template-container .deltionv2-textarea .deltionv2-text .deltionv2-introbutton a {
+    align-items: center;
+    background-color: #f58220;
+    border-radius: 60px;
+    color: #fff;
+    display: flex;
+    font-family: BuenosAires, sans-serif;
+    font-size: 12pt;
+    font-weight: 400;
+    height: 40px;
+    justify-content: center !important;
+    text-decoration: none !important;
+    transition: all .2s ease-in-out;
+    width: 190px
+}
+
+.deltionv2-template-container .deltionv2-textarea .deltionv2-text .deltionv2-introbutton a:hover {
+    background-color: #343368
+}
+
+@media (max-width:767px) {
+    .deltionv2-template-container .deltionv2-textarea .deltionv2-text .deltionv2-introbutton a {
+        font-size: 10pt;
+        width: 150px
+    }
+}
+
+.deltionv2-template-container .deltionv2-textarea .deltionv2-text .deltionv2-introbutton p {
+    align-items: center;
+    display: flex
+}
+
+.deltionv2-template-container .deltionv2-textarea .deltionv2-text .deltionv2-introbutton p img {
+    padding-right: 12px
+}
+
+@media (max-width:767px) {
+    .deltionv2-template-container .deltionv2-textarea .deltionv2-text .deltionv2-introbutton p {
+        padding: 0
+    }
+}
+
+.deltionv2-template-container .deltionv2-content-section {
+    background: #f5f4f7
+}
+
+.deltionv2-template-container .deltionv2-addinformation-section {
+    background-color: #f5f4f7;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0
+}
+
+.deltionv2-template-container .deltionv2-addsize {
+    display: flex;
+    gap: 1rem;
+    width: 65%
+}
+
+@media (max-width:767px) {
+    .deltionv2-template-container .deltionv2-addsize {
+        width: calc(100% - 60px)
+    }
+}
+
+@media (max-width:1449px) {
+    .deltionv2-template-container .deltionv2-addsize {
+        flex-direction: column
+    }
+}
+
+.deltionv2-template-container .deltionv2-addsize .deltionv2-addintrotext {
+    background-color: #fff;
+    box-sizing: border-box;
+    padding: 2rem 2.5rem;
+    width: 100%
+}
+
+.deltionv2-template-container .deltionv2-addsize .deltionv2-addintrotext table {
+    color: #343368;
+    font-family: BuenosAires, sans-serif;
+    margin: 0 2.5rem;
+    width: unset !important
+}
+
+.deltionv2-template-container .deltionv2-addsize .deltionv2-addintrotext table p {
+    margin: unset !important;
+    padding: 0 .5rem
+}
+
+.deltionv2-template-container .deltionv2-addsize .deltionv2-addintrotext table ul {
+    margin: unset !important;
+    padding: 0 1rem
+}
+
+.deltionv2-template-container .deltionv2-addsize .deltionv2-addintrotext table img {
+    margin: unset !important;
+    padding: 0 !important;
+    width: max-content
+}
+
+.deltionv2-template-container .deltionv2-addsize .deltionv2-addintrotext table ol {
+    margin: unset !important;
+    padding: 0 1rem
+}
+
+.deltionv2-template-container .deltionv2-addsize .deltionv2-addintrotext table td {
+    padding: .5rem
+}
+
+.deltionv2-template-container .deltionv2-addsize .deltionv2-addintrotext table td p {
+    padding: .5rem 0
+}
+
+.deltionv2-template-container .deltionv2-addsize .deltionv2-addintrotext h3 {
+    color: #343368;
+    font-family: BuenosAires, sans-serif;
+    font-size: 20pt;
+    font-weight: 600
+}
+
+.deltionv2-template-container .deltionv2-addsize .deltionv2-addintrotext p {
+    color: #343368;
+    font-family: BuenosAires, sans-serif
+}
+
+.deltionv2-template-container .deltionv2-addsize .deltionv2-addintrotext a,
+.deltionv2-template-container .deltionv2-addsize .deltionv2-addintrotext span {
+    color: #343368;
+    font-family: BuenosAires, sans-serif;
+    margin: 0;
+    padding: 0
+}
+
+.deltionv2-template-container .deltionv2-addsize .deltionv2-addintrotext li,
+.deltionv2-template-container .deltionv2-addsize .deltionv2-addintrotext ol,
+.deltionv2-template-container .deltionv2-addsize .deltionv2-addintrotext ul {
+    color: #343368;
+    font-family: BuenosAires, sans-serif;
+    margin: 12px
+}
+
+.deltionv2-template-container .deltionv2-addsize .deltionv2-addintrotext li li,
+.deltionv2-template-container .deltionv2-addsize .deltionv2-addintrotext li ol,
+.deltionv2-template-container .deltionv2-addsize .deltionv2-addintrotext li ul,
+.deltionv2-template-container .deltionv2-addsize .deltionv2-addintrotext ol li,
+.deltionv2-template-container .deltionv2-addsize .deltionv2-addintrotext ol ol,
+.deltionv2-template-container .deltionv2-addsize .deltionv2-addintrotext ol ul,
+.deltionv2-template-container .deltionv2-addsize .deltionv2-addintrotext ul li,
+.deltionv2-template-container .deltionv2-addsize .deltionv2-addintrotext ul ol,
+.deltionv2-template-container .deltionv2-addsize .deltionv2-addintrotext ul ul {
+    margin: 2px;
+    padding: 0
+}
+
+.deltionv2-template-container .deltionv2-addsize .deltionv2-addintrotext li {
+    padding: 0
+}
+
+.deltionv2-template-container .deltionv2-addsize .deltionv2-addintrotext .deltionv2-addintrobutton {
+    align-items: center;
+    display: flex;
+    margin-top: 2rem;
+    padding: 0 2.5rem 2.5rem
+}
+
+@media (max-width:1449px) {
+    .deltionv2-template-container .deltionv2-addsize .deltionv2-addintrotext .deltionv2-addintrobutton {
+        justify-content: center;
+        padding: 0 0 2.5rem
+    }
+}
+
+@media (max-width:991px) {
+    .deltionv2-template-container .deltionv2-addsize .deltionv2-addintrotext .deltionv2-addintrobutton {
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: normal;
+        padding: 0 2.5rem 2.5rem
+    }
+}
+
+.deltionv2-template-container .deltionv2-addsize .deltionv2-addintrotext .deltionv2-addintrobutton a {
+    align-items: center;
+    background-color: #f58220;
+    border-radius: 60px;
+    color: #fff;
+    display: flex;
+    font-family: BuenosAires, sans-serif;
+    font-size: 12pt;
+    font-weight: 600;
+    height: 40px;
+    justify-content: center !important;
+    margin: 0 30px 0 0;
+    text-decoration: none !important;
+    transition: all .2s ease-in-out;
+    width: 190px
+}
+
+@media (max-width:1449px) {
+    .deltionv2-template-container .deltionv2-addsize .deltionv2-addintrotext .deltionv2-addintrobutton a {
+        margin: 0
+    }
+}
+
+@media (max-width:991px) {
+    .deltionv2-template-container .deltionv2-addsize .deltionv2-addintrotext .deltionv2-addintrobutton a {
+        margin: 0 30px 0 0
+    }
+}
+
+.deltionv2-template-container .deltionv2-addsize .deltionv2-addintrotext .deltionv2-addintrobutton a:hover {
+    background-color: #fff;
+    color: #f58220
+}
+
+.deltionv2-template-container .deltionv2-addsize .deltionv2-addcontentarea {
+    width: 100%
+}
+
+.deltionv2-template-container .deltionv2-addsize .deltionv2-addcontentarea img {
+    height: 100%;
+    left: 0;
+    min-width: 100%;
+    object-fit: cover;
+    position: relative;
+    top: 0;
+    width: 100%
+}
+
+@media (max-width:1449px) {
+    .deltionv2-template-container .bottom .deltionv2-addsize {
+        flex-direction: column-reverse
+    }
+}
+
+.deltionv2-template-container .deltionv2-accordeon {
+    align-items: center;
+    background-color: #f5f4f7;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0
+}
+
+.deltionv2-template-container .deltionv2-accordeon h3 {
+    color: #343368;
+    font-family: BuenosAires, sans-serif;
+    font-size: 19pt;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    text-align: center;
+    text-wrap: pretty;
+    width: 65%
+}
+
+.deltionv2-template-container .deltionv2-accordeon .deltionv2-accordion-whole {
+    margin: 1rem;
+    width: 65%
+}
+
+@media (max-width:767px) {
+    .deltionv2-template-container .deltionv2-accordeon .deltionv2-accordion-whole {
+        width: calc(100% - 60px)
+    }
+}
+
+.deltionv2-template-container .deltionv2-accordeon .deltionv2-accordion-whole:last-child {
+    margin: 1rem 0 0
+}
+
+.deltionv2-template-container .deltionv2-accordeon .deltionv2-accordion {
+    background-color: #fff;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: flex;
+    font-weight: 700;
+    outline: none;
+    padding: 20px 25px;
+    text-align: left;
+    transition: .4s;
+    width: 100%
+}
+
+.deltionv2-template-container .deltionv2-accordeon .deltionv2-accordion a {
+    color: #343368;
+    font-family: BuenosAires, sans-serif;
+    font-size: 14pt;
+    font-weight: 500;
+    text-decoration: none !important
+}
+
+.deltionv2-template-container .deltionv2-accordeon .deltionv2-accordion .deltionv2-arrow-container {
+    align-items: center;
+    align-self: center;
+    display: flex;
+    height: 100%;
+    padding-right: 28px;
+    width: 22px
+}
+
+.deltionv2-template-container .deltionv2-accordeon .deltionv2-accordion .deltionv2-arrow-container img {
+    height: 30px;
+    max-width: unset !important;
+    transition: transform .3s ease;
+    width: 30px
+}
+
+.deltionv2-template-container .deltionv2-accordeon .deltionv2-accordion-panel {
+    background-color: #fff;
+    border-top: 1px solid #f5f4f7;
+    box-sizing: border-box;
+    margin-top: 3px;
+    max-height: 0;
+    overflow: hidden;
+    padding: 0 2rem;
+    transform: translateY(-4px);
+    transition: max-height .2s ease-out;
+    width: 100%
+}
+
+.deltionv2-template-container .deltionv2-accordeon .deltionv2-accordion-panel p,
+.deltionv2-template-container .deltionv2-accordeon .deltionv2-accordion-panel ul {
+    color: #343368;
+    font-family: BuenosAires, sans-serif;
+    padding: 20px
+}
+
+.deltionv2-template-container .deltionv2-accordeon .deltionv2-accordion-active {
+    max-height: none
+}
+
+.deltionv2-template-container .deltionv2-accordeon .deltionv2-accordion-active .deltionv2-arrow-container img {
+    transform: rotate(180deg)
+}
+
+.deltionv2-template-container .deltionv2-accordeon .deltionv2-accordion-question {
+    background-color: #f5f4f7;
+    border: 1px solid #0a1f3f;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    font-weight: 700;
+    outline: none;
+    padding: 20px 0 17px 12px;
+    text-align: left;
+    transition: .4s;
+    width: 100%
+}
+
+.deltionv2-template-container .deltionv2-accordeon .deltionv2-accordion-question a {
+    color: #343368;
+    font-size: 22px;
+    text-decoration: none !important
+}
+
+.deltionv2-template-container .deltionv2-accordeon .deltionv2-accordion-question .deltionv2-arrow-container-question {
+    align-items: center;
+    align-self: center;
+    display: flex;
+    height: 100%;
+    padding-right: 28px;
+    width: 50px
+}
+
+.deltionv2-template-container .deltionv2-accordeon .deltionv2-accordion-question .deltionv2-arrow-container-question img {
+    height: 40px;
+    transition: transform .3s ease;
+    width: 40px
+}
+
+.deltionv2-template-container .deltionv2-accordeon .deltionv2-accordion-question .deltionv2-arrow-container-question #afterimg {
+    display: none
+}
+
+@media (min-width:768px) {
+    .deltionv2-template-container .deltionv2-accordeon .deltionv2-accordion-question .deltionv2-arrow-container-question {
+        align-self: flex-end;
+        padding: 0 7px 0 10px
+    }
+}
+
+.deltionv2-template-container .deltionv2-accordeon .deltionv2-accordion-panel-question {
+    border: 1px solid #343368;
+    box-sizing: border-box;
+    margin-top: 3px;
+    max-height: 0;
+    overflow: hidden;
+    padding: 0 0 0 18px;
+    transform: translateY(-4px);
+    transition: max-height .2s ease-out;
+    width: 100%
+}
+
+.deltionv2-template-container .deltionv2-accordeon .deltionv2-accordion-panel-question p {
+    font-family: BuenosAires, sans-serif;
+    padding: 20px
+}
+
+.deltionv2-template-container .deltionv2-accordeon .deltionv2-accordion-question-active {
+    max-height: none
+}
+
+.deltionv2-template-container .deltionv2-accordeon .deltionv2-accordion-question-active .deltionv2-arrow-container-question #beforeimg {
+    display: none
+}
+
+.deltionv2-template-container .deltionv2-accordeon .deltionv2-accordion-question-active .deltionv2-arrow-container-question #afterimg {
+    display: block
+}
+
+#tinymce .deltionv2-accordion-panel {
+    max-height: none
+}
+
+@media screen and (min-width:1600px) {
+    .deltionv2-center-template {
+        display: flex;
+        justify-content: center
+    }
+}
+
+.course-title {
+    display: none !important
+}
+
+.deltionv2-template-container {
+    max-width: 1200px;
+    word-break: unset !important
+}
+
+.deltionv2-template-container h2 {
+    color: #343368;
+    font-family: BuenosAires, sans-serif;
+    font-weight: 700
+}
+
+.deltionv2-template-container h3 {
+    color: #343368;
+    font-family: BuenosAires, sans-serif;
+    font-size: 19pt;
+    font-weight: 600
+}
+
+.deltionv2-template-container h4 {
+    color: #343368;
+    font-family: BuenosAires, sans-serif;
+    font-size: 18pt;
+    font-weight: 500;
+    margin: 0;
+    word-break: unset !important
+}
+
+@media (min-width:544px) {
+    .deltionv2-template-container {
+        width: 100%
+    }
+}
+
+.deltionv2-template-container .deltionv2-banner .deltionv2-content .deltionv2-content-header .external span {
+    color: #fff
+}
+
+.deltionv2-template-container .deltionv2-banner .deltionv2-content .deltionv2-content-header .external .external_link_icon {
+    display: none !important
+}
+
+.deltionv2-template-container .deltionv2-banner .deltionv2-content .deltionv2-content-header .external:hover span {
+    color: #f58220 !important;
+    text-decoration: none !important
+}
+
+.deltionv2-template-container .deltionv2-information-section .deltionv2-introtext .deltionv2-introbutton .external span {
+    color: #fff
+}
+
+.deltionv2-template-container .deltionv2-information-section .deltionv2-introtext .deltionv2-introbutton .external .external_link_icon {
+    display: none !important
+}
+
+.deltionv2-template-container .deltionv2-information-section .deltionv2-introtext .deltionv2-introbutton .external:hover span {
+    color: #f58220 !important;
+    text-decoration: none !important
+}
+
+.deltionv2-template-container .deltionv2-textarea .deltionv2-text .deltionv2-introbutton:hover .external span {
+    color: #fff !important;
+    text-decoration: none !important
+}
+
+.deltionv2-template-container .deltionv2-textarea .deltionv2-text .deltionv2-introbutton .external span {
+    color: #fff !important;
+    padding: 0 !important
+}
+
+.deltionv2-template-container .deltionv2-textarea .deltionv2-text .deltionv2-introbutton .external .external_link_icon,
+.external_link_icon {
+    display: none !important
+}
+
+.external_link_icon {
+    text-decoration: none !important
+}
