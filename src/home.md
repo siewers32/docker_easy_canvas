@@ -1,16 +1,10 @@
 ---
-layout: leerdoelen_layout.njk
+layout: home_layout.njk
 title: Cursusnaam
 date: 2025-08-21
 aan_de_slag_link: https://www.apple.com
 afbeelding: /_assets/test_afbeelding.jpg
 ---
-
-{% navigatie "Cursusnaam" %}
-{% navigatie_link "https://www.apple.com", "Apple"%}
-{% navigatie_link "https://www.apple.com", "Apple"%}
-{% navigatie_link "https://www.apple.com", "Apple"%}
-{% endnavigatie %}
 
 {% section %}
 
@@ -34,11 +28,6 @@ Hier nog wat tekst
 
 {% endsection %}
 
-{% section_accordeon "Leerdoelen"%}
-    {% accordeon "Komt afspraken na" %}
-        Ja, je moet je afspraken natuurlijk wel nakomen mensen.
-    {% endaccordeon %}
-{% endsection_accordeon %}
 
 {% button_collection %}
     {% button "https://www.apple.com", "Apple"%}

@@ -1,0 +1,6 @@
+{
+    "title": "Test",
+    "layout": "leerdoelen_layout.njk",
+    "permalink": "/test/{{ title | slug }}/{{ page.index }}",
+    "tags": "test"
+}

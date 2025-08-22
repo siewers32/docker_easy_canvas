@@ -1,9 +1,6 @@
 ---
-layout: leerdoelen_layout.njk
-title: Cursusnaam
+title: Introductie
 date: 2025-08-21
-aan_de_slag_link: https://www.apple.com
-afbeelding: /_assets/test_afbeelding.jpg
 ---
 
 {% navigatie "Cursusnaam" %}

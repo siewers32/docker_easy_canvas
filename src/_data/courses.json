@@ -1,0 +1,9 @@
+{
+  "courses": [   
+    {
+      "url": "test/introductie/",
+      "name": "Test",
+      "description": "Even testen"
+    }  
+  ]
+}
