@@ -4,6 +4,7 @@ title: Cursusnaam
 date: 2025-08-21
 aan_de_slag_link: https://www.apple.com
 afbeelding: /_assets/test_afbeelding.jpg
+tags: home
 ---
 
 {% section %}
@@ -29,9 +30,4 @@ Hier nog wat tekst
 {% endsection %}
 
 
-{% button_collection %}
-    {% button "https://www.apple.com", "Apple"%}
-    {% button "https://www.apple.com", "Apple"%}
-    {% button "https://www.apple.com", "Apple"%}
-    {% button "https://www.apple.com", "Apple"%}
-{% endbutton_collection %}
+

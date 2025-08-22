@@ -1,5 +1,5 @@
 ---
-title: Introductie
+title: Bla
 date: 2025-08-21
 ---
 
