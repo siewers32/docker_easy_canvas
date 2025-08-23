@@ -1,8 +1,9 @@
     body {
         padding:0;
         margin:0;
+        font-family: BuenosAires, sans-serif;;
     }
-    
+
     details {
         /* border-bottom: 1px solid #ccc; */
         font-family: BuenosAires, sans-serif;
@@ -79,4 +80,9 @@
         left: 0;
         width: 100%;
         height: 100%;
+    }
+
+    code[class*="language-"],
+    pre[class*="language-"] {
+        background: #f5f4f7;
     }

@@ -4,6 +4,11 @@
       "url": "test/introductie/",
       "name": "Test",
       "description": "Even testen"
-    }  
+    },
+    {
+      "url": "dbq/introductie/",
+      "name": "Database queries",
+      "description": "Leren werken met data en queries"
+    }   
   ]
 }

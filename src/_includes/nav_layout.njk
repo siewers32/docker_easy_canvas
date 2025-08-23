@@ -6,7 +6,7 @@
         <section class="deltionv2-addbanner">
             <div class="deltionv2-addcontent">
                 <div class="deltionv2-addcontent-header">
-                    <h2>{{ title }}</h2>
+                    <h2>{{ course_title }}</h2>
                 </div>
                 <div class="deltionv2-addcontent-header">
                     {% for p in collections[tags] | postsAscending %}
@@ -15,7 +15,16 @@
                 </div>
             </div>
         </section>
-        {{ content | safe}}
+         <div class="deltionv2-content-section">
+            <section class="deltionv2-textarea">
+                {# Aangepaste css ivm color-coding van code-blocks #}
+                <div style="display: flex; flex-direction: column; box-sizing: border-box; padding:2rem 2.5rem; background:#fff; width:65%;">
+                {# Einde aanpassing #}
+                    {{ content | safe}}
+                    
+                </div>
+            </section>
+        </div>
     </div>
 </div>
 

@@ -1,5 +1,5 @@
 {
-    "course-title": "Database Queries",
+    "course_title": "Database Queries",
     "layout": "nav_layout.njk",
     "permalink": "/dbq/{{ title | slug }}/{{ page.index }}",
     "tags": "dbq"

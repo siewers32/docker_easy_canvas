@@ -1,22 +1,13 @@
 ---
-layout: leerdoelen_layout.njk
-title: Cursusnaam
+layout: front_layout.njk
+course_title: Onderwerpen
+title: Onderwerpen
 date: 2025-08-21
 aan_de_slag_link: https://www.apple.com
 afbeelding: /_assets/test_afbeelding.jpg
+tags: home
 ---
 
-{% navigatie "Cursusnaam" %}
-{% navigatie_link "https://www.apple.com", "Apple"%}
-{% navigatie_link "https://www.apple.com", "Apple"%}
-{% navigatie_link "https://www.apple.com", "Apple"%}
-{% endnavigatie %}
-
-{% section %}
-
-{% afbeelding "test_afbeelding.jpg" %}
-
-{% text %}
 
 ### Dit is de section met tekst.
 Blaberdie bla ben bla
@@ -29,20 +20,4 @@ Hier nog wat tekst
 * hier nog een lijsetje
 * En nog wat
 
-{% endtext %}
 
-
-{% endsection %}
-
-{% section_accordeon "Leerdoelen"%}
-    {% accordeon "Komt afspraken na" %}
-        Ja, je moet je afspraken natuurlijk wel nakomen mensen.
-    {% endaccordeon %}
-{% endsection_accordeon %}
-
-{% button_collection %}
-    {% button "https://www.apple.com", "Apple"%}
-    {% button "https://www.apple.com", "Apple"%}
-    {% button "https://www.apple.com", "Apple"%}
-    {% button "https://www.apple.com", "Apple"%}
-{% endbutton_collection %}

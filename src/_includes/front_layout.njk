@@ -20,10 +20,11 @@
             <div class="deltionv2-contentarea"><img src="{{ afbeelding }}" alt="{{ afbeelding }}" /></div>
         </section>
         <section class="deltionv2-buttoncollection">
-            {% for p in collections[tags] | postsAscending %}
-            <div class="deltionv2-navigationbutton"><a href="{{ p.url }}" {% if p.url==page.url %}aria-current="page"
-                    data-state="active" {% endif %}><img src="/_assets/arrow-right-o.svg" alt="Arrow" />{{ p.data.title}}<br /></a></div>
-            {% endfor %}
+            {% for course in courses.courses|sort(attribute='name')%}
+                <div class="deltionv2-navigationbutton"><a href="{{ course.url }}" {% if p.url==page.url %}aria-current="page"
+                                    data-state="active" {% endif %}><img src="/_assets/arrow-right-o.svg" alt="Arrow" />{{ course.name}}<br /></a>
+                </div>
+            {% endfor %}            
         </section>
     </div>
 </div>

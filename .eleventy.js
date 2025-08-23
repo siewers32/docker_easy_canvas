@@ -1,5 +1,5 @@
 import syntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
-// import { RenderPlugin } from "@11ty/eleventy";
+import { RenderPlugin } from "@11ty/eleventy";
 import { HtmlBasePlugin } from "@11ty/eleventy";
 
 export default function(eleventyConfig) {
@@ -8,6 +8,7 @@ export default function(eleventyConfig) {
     eleventyConfig.setIncludesDirectory("_includes");
     eleventyConfig.addPlugin(syntaxHighlight);
     eleventyConfig.addPlugin(HtmlBasePlugin);
+    eleventyConfig.addPlugin(RenderPlugin);
 
     eleventyConfig.addCollection("pages", function(collection) {
         const coll = collection.getFilteredByTag("pages");
